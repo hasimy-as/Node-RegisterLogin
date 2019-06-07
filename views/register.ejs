@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/semantic.min.css" />
+
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="ui middle aligned center aligned grid">
+        <div class="column ui stacked segment">
+            <h1 class="ui header">Register</h1>
+
+            <form class="ui medium form" method="POST" action="auth_register">
+                <label class="ui teal header">
+                    Name
+                </label>
+                <input type="text" name="name" placeholder="Example" required />
+
+                <label htmlFor="password" class="ui orange header">
+                    <br /><br />
+                    Email
+                </label>
+                <input type="text" name="email" placeholder="example@example.com" required autofocus email />
+
+                <label htmlFor="password" class="ui red header">
+                    <br /><br />
+                    Password
+                </label>
+                <input type="password" name="password" placeholder="Your password" required />
+                <br /><br /><br />
+                <input class="ui fluid large green submit button" type="submit" value="Login" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

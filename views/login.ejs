@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/semantic.min.css" />
+
+    <title>Login Homepage</title>
+</head>
+
+<body>
+    <div class="ui middle aligned center aligned grid">
+        <div class="column ui stacked segment">
+            <h1 class="ui header">Login Page</h1>
+
+            <form class="ui large form" method="POST" action="auth_login">
+                <label class="ui orange header">
+                    Email
+                </label>
+                <input type="email" name="email" placeholder="example@example.com" required autofocus email />
+
+                <label htmlFor="password" class="ui red header">
+                    <br /><br />
+                    Password
+                </label>
+                <input type="password" name="password" placeholder="Your password" required />
+                <br /><br /><br />
+                <input class="ui fluid large green submit button" type="submit" value="Login" /><br>
+                <a href="/register" class="ui">Not registered?</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
