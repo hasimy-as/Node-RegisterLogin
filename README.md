@@ -14,6 +14,7 @@ First off, you need to download the files in this repository, or clone it with c
 Secondly, proceed to install the needed node_modules to make the application work using command (npm install).
 
 Third, you need to import the MySQL database located in the folder (database/nodemysql.sql).
+Data has already first made by the (email = hasimy@user.com) and (password = user).
 Alternatively, you can make your own MySQL database, with the format as follows:
 
     _______________________
