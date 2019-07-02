@@ -1,5 +1,5 @@
 {
-  "name": "app-nodeloginregister-mysql",
+  "name": "Node-RegisterLogin",
   "version": "1.0.0",
   "description": "A web application for login and register, using Node.js in server, EJS in HTML templating, and MySQL as the database (SQL).",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hasimy-as/app-nodeloginregister-mysql.git"
+    "url": "git+https://github.com/hasimy-as/Node-RegisterLogin.git"
   },
   "author": "Hasimy",
   "license": "GPL-3.0",
@@ -22,7 +22,7 @@
     "semantic-ui-icon": "^2.3.3"
   },
   "bugs": {
-    "url": "https://github.com/hasimy-as/app-nodeloginregister-mysql/issues"
+    "url": "https://github.com/hasimy-as/Node-RegisterLogin/issues"
   },
-  "homepage": "https://github.com/hasimy-as/app-nodeloginregister-mysql#readme"
+  "homepage": "https://github.com/hasimy-as/Node-RegisterLogin#readme"
 }
