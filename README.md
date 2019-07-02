@@ -1,4 +1,4 @@
-# app-nodeloginregister-mysql
+# Node-RegisterLogin
 
 A web application for login, using Node.js in server, EJS in HTML templating, and MySQL as the database (SQL).
 
