@@ -1,6 +1,6 @@
-# UKL
+# Node-RegisterLogin
 
-Ini adalah projek kenaikan level SMK Telkom Malang, tentang website Inventaris Sarana dan Prasarana di sisi Admin, dan User.
+A web application for login and register, using Node.js in server, EJS in HTML templating, and MySQL as the database (SQL).
 
 ## Version 1.0.0
 
