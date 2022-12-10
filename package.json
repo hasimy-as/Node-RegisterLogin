@@ -14,7 +14,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.16.1",
     "body-parser": "^1.19.0",
     "express-myconnection": "^1.0.4",
